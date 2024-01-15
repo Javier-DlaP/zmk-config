@@ -75,9 +75,9 @@
 	//|----------+----------+----------+----------+----------+----------|                        |----------+----------+----------+----------+----------+----------|
 		    &trans 	  &trans   &kp HOME  &kp PG_DN 	&kp PG_UP 	 &kp END   	 					  	  &trans 	 &trans  	&trans     &trans &kp C_NEXT &kp C_PREV
 	//|----------+----------+----------+----------+----------+----------|                        |----------+----------+----------+----------+----------+----------|
-   		    &trans    &trans 	 &trans 	&trans 	   &trans 	  &trans   							  &trans 	&kp MB1    &kp MB2 	   &trans &kp C_MUTE   &kp C_PP
+   		    &trans    &trans 	 &trans 	&trans 	   &trans 	  &trans   							  &trans   &mkp MB1   &mkp MB2 	   &trans &kp C_MUTE   &kp C_PP
 	//|----------+----------+----------+----------+----------+----------+----------|  |----------+----------+----------+----------+----------+----------+----------|
-                  								   	 &kp LGUI      &none  &kp SPACE   	  &kp RET 	   &none   &kp RALT
+                  								   	&kp LSHFT      &none  &kp SPACE   	&kp ENTER 	   &none   &kp RALT
 												//`--------------------------------'  `--------------------------------'
                         >;
                 };
