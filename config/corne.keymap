@@ -72,11 +72,11 @@
 						label = "SPECIAL";
                         bindings = <
    	//,-----------------------------------------------------------------.                        ,-----------------------------------------------------------------.
-		   &trans     &trans	 &trans 	&trans 	   &trans  &kp PSCRN   			        		  &trans 	 &trans  	&trans &trans &kp C_VOL_DN &kp C_VOL_UP
+		   &trans     &trans	 &trans 	&trans 	   &trans  &kp PSCRN   			  &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &kp C_VOL_DN &kp C_VOL_UP
 	//|----------+----------+----------+----------+----------+----------|                        |----------+----------+----------+----------+----------+----------|
 		    &trans 	  &trans   &kp HOME  &kp PG_DN 	&kp PG_UP 	 &kp END   	 					  	  &trans 	 &trans  	&trans     &trans &kp C_NEXT &kp C_PREV
 	//|----------+----------+----------+----------+----------+----------|                        |----------+----------+----------+----------+----------+----------|
-   		    &trans    &trans 	 &trans 	&trans 	   &trans 	  &trans   							  &trans   &mkp MB1   &mkp MB2 	   &trans &kp C_MUTE   &kp C_PP
+   		    &trans    &trans 	 &trans 	&trans 	   &trans 	  &trans   						  &bt BT_CLR   &mkp MB1   &mkp MB2 	   &trans &kp C_MUTE   &kp C_PP
 	//|----------+----------+----------+----------+----------+----------+----------|  |----------+----------+----------+----------+----------+----------+----------|
                   								   	&kp LSHFT      &none  &kp SPACE   	&kp ENTER 	   &none   &kp RALT
 												//`--------------------------------'  `--------------------------------'
