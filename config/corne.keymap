@@ -56,11 +56,11 @@
 						label = "NUM_PAD";
                         bindings = <
    	//,-----------------------------------------------------------------.                        ,-----------------------------------------------------------------.
-		&kp EQUAL  &kp SLASH 	 &kp N7 	&kp N8 	   &kp N9  &kp MINUS   			       			   &none	  &none &kp RALT(N1) &kp EXCL	  &kp AT	&kp DEL
+		&kp EQUAL  &kp SLASH 	 &kp N7 	&kp N8 	   &kp N9  &kp MINUS   			       			   &none	  &none	&kp RA(N1)	 &kp EXCL	  &kp AT	&kp DEL
 	//|----------+----------+----------+----------+----------+----------|                        |----------+----------+----------+----------+----------+----------|
 		 &kp CAPS 	&kp STAR 	 &kp N4 	&kp N5 	   &kp N6 	&kp PLUS   	 						   &none   &kp NUHS	  &kp APOS	 &kp NUBS  &kp MINUS   &kp LGUI
 	//|----------+----------+----------+----------+----------+----------|                        |----------+----------+----------+----------+----------+----------|
-        &kp LCTRL     &kp N0 	 &kp N1 	&kp N2 	   &kp N3 	 &kp DOT   							   &none  &none &kp RALT(SLASH) &kp QMARK	&kp LPAR   &kp RPAR
+        &kp LCTRL     &kp N0 	 &kp N1 	&kp N2 	   &kp N3 	 &kp DOT   							   &none   &none &kp RA(SLASH) &kp QMARK	&kp LPAR   &kp RPAR
 	//|----------+----------+----------+----------+----------+----------+----------|  |----------+----------+----------+----------+----------+----------+----------|
                   								   &kp LSHFT &mo SPECIAL  &kp SPACE    	&kp ENTER 	   &none   &kp RALT
 												//`--------------------------------'  `--------------------------------'
@@ -76,7 +76,7 @@
 	//|----------+----------+----------+----------+----------+----------|                        |----------+----------+----------+----------+----------+----------|
 			&none	   &none   &kp HOME  &kp PG_DN 	&kp PG_UP 	 &kp END   	 						   &none	  &none		 &none		&none &kp C_PREV &kp C_NEXT
 	//|----------+----------+----------+----------+----------+----------|                        |----------+----------+----------+----------+----------+----------|
-  &kp LGUI(SPACE)	   &none	  &none		 &none		&none	   &none   						  &bt BT_CLR	  &none		 &none		&none &kp C_MUTE   &kp C_PP
+	&kp LG(SPACE)	   &none	  &none		 &none		&none	   &none   						  &bt BT_CLR	  &none		 &none		&none &kp C_MUTE   &kp C_PP
 	//|----------+----------+----------+----------+----------+----------+----------|  |----------+----------+----------+----------+----------+----------+----------|
                   								   	&kp LSHFT      &none  &kp SPACE   	&kp ENTER 	   &none   &kp RALT
 												//`--------------------------------'  `--------------------------------'
